@@ -1,0 +1,28 @@
+{
+  "name": "static-site",
+  "version": "1.0.0",
+  "description": "Read Me Generator App",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.0.0",
+    "electron": "^5.0.3",
+    "electron-html-to": "^2.6.0",
+    "inquirer": "^6.5.2",
+    "open": "^6.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cailinyoung/cyoung-nodeJS.git"
+  },
+  "author": "Cailin Young",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cailinyoung/cyoung-nodeJS/issues"
+  },
+  "homepage": "https://github.com/cailinyoung/cyoung-nodeJS#readme"
+}
