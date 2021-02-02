@@ -7,7 +7,7 @@ const api = require('./api.js')
 const generateMarkdown = require('./generateMarkdown.js')
 
 const writeToFile = (data) => {
-    fs.writeFile("README.md", data, error => error ? console.error(error) : console.log("success"))
+    fs.writeFile("example.md", data, error => error ? console.error(error) : console.log("success"))
 }
 
 // API user ID name & repository 
