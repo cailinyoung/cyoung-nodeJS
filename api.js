@@ -2,6 +2,7 @@ const api = {
     async getUser (username, reponame) {
     const axios = require('axios')
     const { data } = await axios.get(`https://api.github.com/search/repositories?q=${reponame}+user:${username}`)
+    console.log(data)
     if (data.total_count === 0) return false
     return {
         name: data.items[0].owner.login,

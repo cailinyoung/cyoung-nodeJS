@@ -2,11 +2,12 @@
 const prompt = require('inquirer').createPromptModule()
 const fs = require('fs')
 
+// api
 const api = require('./api.js')
 const generateMarkdown = require('./generateMarkdown.js')
 
-const writeToFile = (fileName, data) => {
-    fs.writeFile(fileName + '.md', data, error => error ? console.error(error) : console.log(`${fileName + '.md'} generated!`))
+const writeToFile = (data) => {
+    fs.writeFile("README.md", data, error => error ? console.error(error) : console.log("success"))
 }
 
 // API user ID name & repository 
@@ -62,11 +63,11 @@ const init = async _ => {
         {
             type: 'input',
             name: 'questions',
-            message: 'Any questions?'
+            message: 'Enter your email'
         }
     ]))
 
-    writeToFile(object.title, await generateMarkdown(object))
+    writeToFile(await generateMarkdown(object))
 }
 
-init()
+init();
