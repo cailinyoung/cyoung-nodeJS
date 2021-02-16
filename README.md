@@ -4,20 +4,21 @@
 ![License: None](https://img.shields.io/badge/License-None-brightgreen)
 
 # Repo by cailinyoung
-__null__
----
+
+# User Story:
+This assignment is used to solidify how to generate README files in the github app.
 
 # Installation:
-na
+none
 
 # Usage:
-na
+n/a
 
 # Contributors:
-na
+Cailin Young
 
 # Tests:
-na
+n/a
 
 # Contact info for further questions:
-na
+cailinfayyoung@gmail.com

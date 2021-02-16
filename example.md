@@ -8,16 +8,16 @@ __null__
 ---
 
 # Installation:
-"npm install" 
+n/a
 
 # Usage:
-generate README files for github repositories 
+to build README files and generate them for Github Repositories.
 
 # Contributors:
 Cailin Young
 
 # Tests:
-none
+n/a
 
 # Contact info for further questions:
 cailinfayyoung@gmail.com
